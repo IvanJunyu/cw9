@@ -27,8 +27,8 @@ class FilteredList extends Component {
   // Change filterItem to take into account the "type" state variable when filtering
   filterItem = (item) => {
     const { search, type } = this.state;
-    if (type == "Fruit" || type == "Vegetable") {
-	  return item.name.toLowerCase().search(search) !== -1 && item.type == type;
+    if (type === "Fruit" || type === "Vegetable") {
+	  return item.name.toLowerCase().search(search) !== -1 && item.type === type;
     } else {
       return item.name.toLowerCase().search(search) !== -1;
     }
