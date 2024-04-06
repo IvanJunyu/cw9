@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color:lightblue;
 }
 
 .App-logo {
@@ -36,3 +37,23 @@
     transform: rotate(360deg);
   }
 }
+
+.filter-list {
+  margin-top: 20px;
+  width: 100%; 
+  max-width: 400px; 
+  margin-left:39%;
+}
+
+.filter-list h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.filter-list input {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+
